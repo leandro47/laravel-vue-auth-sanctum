@@ -2136,7 +2136,7 @@ vue__WEBPACK_IMPORTED_MODULE_4__.default.use(vue_router__WEBPACK_IMPORTED_MODULE
 
 var guest = function guest(to, form, next) {
   axios.get('/api/athenticated').then(function () {
-    next("/home");
+    next("/");
   })["catch"](function () {
     return next();
   });
@@ -2156,7 +2156,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_5__.default({
   mode: 'history',
   linkExactActiveClass: 'active',
   routes: [{
-    path: "/home",
+    path: "/",
     name: "Home",
     component: _pages_dashboard_Dashboard__WEBPACK_IMPORTED_MODULE_2__.default,
     beforeEnter: auth
