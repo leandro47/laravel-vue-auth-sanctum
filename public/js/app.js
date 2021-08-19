@@ -1905,30 +1905,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -17605,7 +17581,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n/* BASIC */\nhtml[data-v-42c42d6a] {\r\n  background-color: #56baed;\n}\nbody[data-v-42c42d6a] {\r\n  font-family: \"Poppins\", sans-serif;\r\n  height: 100vh;\n}\na[data-v-42c42d6a] {\r\n  color: #92badd;\r\n  display: inline-block;\r\n  text-decoration: none;\r\n  font-weight: 400;\n}\nh2[data-v-42c42d6a] {\r\n  text-align: center;\r\n  font-size: 16px;\r\n  font-weight: 600;\r\n  text-transform: uppercase;\r\n  display: inline-block;\r\n  margin: 40px 8px 10px 8px;\r\n  color: #cccccc;\n}\r\n\r\n/* STRUCTURE */\n.wrapper[data-v-42c42d6a] {\r\n  display: flex;\r\n  align-items: center;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  width: 100%;\r\n  min-height: 100%;\r\n  padding: 20px;\n}\n#formContent[data-v-42c42d6a] {\r\n  border-radius: 10px 10px 10px 10px;\r\n  background: #fff;\r\n  padding: 30px;\r\n  width: 90%;\r\n  max-width: 450px;\r\n  position: relative;\r\n  padding: 0px;\r\n  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);\r\n  text-align: center;\n}\n#formFooter[data-v-42c42d6a] {\r\n  background-color: #f6f6f6;\r\n  border-top: 1px solid #dce8f1;\r\n  padding: 25px;\r\n  text-align: center;\r\n  border-radius: 0 0 10px 10px;\n}\r\n\r\n/* TABS */\nh2.inactive[data-v-42c42d6a] {\r\n  color: #cccccc;\n}\nh2.active[data-v-42c42d6a] {\r\n  color: #0d0d0d;\r\n  border-bottom: 2px solid #5fbae9;\n}\r\n\r\n/* FORM TYPOGRAPHY*/\ninput[type=\"button\"][data-v-42c42d6a],\r\ninput[type=\"submit\"][data-v-42c42d6a],\r\ninput[type=\"reset\"][data-v-42c42d6a] {\r\n  background-color: #56baed;\r\n  border: none;\r\n  color: white;\r\n  padding: 15px 80px;\r\n  text-align: center;\r\n  text-decoration: none;\r\n  display: inline-block;\r\n  text-transform: uppercase;\r\n  font-size: 13px;\r\n  box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);\r\n  border-radius: 5px 5px 5px 5px;\r\n  margin: 5px 20px 40px 20px;\r\n  transition: all 0.3s ease-in-out;\n}\ninput[type=\"button\"][data-v-42c42d6a]:hover,\r\ninput[type=\"submit\"][data-v-42c42d6a]:hover,\r\ninput[type=\"reset\"][data-v-42c42d6a]:hover {\r\n  background-color: #39ace7;\n}\ninput[type=\"button\"][data-v-42c42d6a]:active,\r\ninput[type=\"submit\"][data-v-42c42d6a]:active,\r\ninput[type=\"reset\"][data-v-42c42d6a]:active {\r\n  transform: scale(0.95);\n}\ninput[type=\"text\"][data-v-42c42d6a] {\r\n  background-color: #f6f6f6;\r\n  border: none;\r\n  color: #0d0d0d;\r\n  padding: 15px 32px;\r\n  text-align: center;\r\n  text-decoration: none;\r\n  display: inline-block;\r\n  font-size: 16px;\r\n  margin: 5px;\r\n  width: 85%;\r\n  border: 2px solid #f6f6f6;\r\n  transition: all 0.5s ease-in-out;\r\n  border-radius: 5px 5px 5px 5px;\n}\ninput[type=\"text\"][data-v-42c42d6a]:focus {\r\n  background-color: #fff;\r\n  border-bottom: 2px solid #5fbae9;\n}\ninput[type=\"text\"][data-v-42c42d6a]:placeholder {\r\n  color: #cccccc;\n}\r\n\r\n/* ANIMATIONS */\r\n\r\n/* Simple CSS3 Fade-in-down Animation */\n.fadeInDown[data-v-42c42d6a] {\r\n  -webkit-animation-name: fadeInDown-data-v-42c42d6a;\r\n  animation-name: fadeInDown-data-v-42c42d6a;\r\n  -webkit-animation-duration: 1s;\r\n  animation-duration: 1s;\r\n  -webkit-animation-fill-mode: both;\r\n  animation-fill-mode: both;\n}\n@-webkit-keyframes fadeInDown-data-v-42c42d6a {\n0% {\r\n    opacity: 0;\r\n    transform: translate3d(0, -100%, 0);\n}\n100% {\r\n    opacity: 1;\r\n    transform: none;\n}\n}\n@keyframes fadeInDown-data-v-42c42d6a {\n0% {\r\n    opacity: 0;\r\n    transform: translate3d(0, -100%, 0);\n}\n100% {\r\n    opacity: 1;\r\n    transform: none;\n}\n}\r\n\r\n/* Simple CSS3 Fade-in Animation */\n@-webkit-keyframes fadeIn-data-v-42c42d6a {\nfrom {\r\n    opacity: 0;\n}\nto {\r\n    opacity: 1;\n}\n}\n@keyframes fadeIn-data-v-42c42d6a {\nfrom {\r\n    opacity: 0;\n}\nto {\r\n    opacity: 1;\n}\n}\n.fadeIn[data-v-42c42d6a] {\r\n  opacity: 0;\r\n  -webkit-animation: fadeIn-data-v-42c42d6a ease-in 1;\r\n  animation: fadeIn-data-v-42c42d6a ease-in 1;\r\n\r\n  -webkit-animation-fill-mode: forwards;\r\n  animation-fill-mode: forwards;\r\n\r\n  -webkit-animation-duration: 1s;\r\n  animation-duration: 1s;\n}\n.fadeIn.first[data-v-42c42d6a] {\r\n  -webkit-animation-delay: 0.4s;\r\n  animation-delay: 0.4s;\n}\n.fadeIn.second[data-v-42c42d6a] {\r\n  -webkit-animation-delay: 0.6s;\r\n  animation-delay: 0.6s;\n}\n.fadeIn.third[data-v-42c42d6a] {\r\n  -webkit-animation-delay: 0.8s;\r\n  animation-delay: 0.8s;\n}\n.fadeIn.fourth[data-v-42c42d6a] {\r\n  -webkit-animation-delay: 1s;\r\n  animation-delay: 1s;\n}\r\n\r\n/* Simple CSS3 Fade-in Animation */\n.underlineHover[data-v-42c42d6a]:after {\r\n  display: block;\r\n  left: 0;\r\n  bottom: -10px;\r\n  width: 0;\r\n  height: 2px;\r\n  background-color: #56baed;\r\n  content: \"\";\r\n  transition: width 0.2s;\n}\n.underlineHover[data-v-42c42d6a]:hover {\r\n  color: #0d0d0d;\n}\n.underlineHover[data-v-42c42d6a]:hover:after {\r\n  width: 100%;\n}\r\n\r\n/* OTHERS */\n*[data-v-42c42d6a]:focus {\r\n  outline: none;\n}\n#icon[data-v-42c42d6a] {\r\n  width: 60%;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/* BASIC */\nhtml[data-v-42c42d6a] {\n  background-color: #56baed;\n}\nbody[data-v-42c42d6a] {\n  font-family: \"Poppins\", sans-serif;\n  height: 100vh;\n}\na[data-v-42c42d6a] {\n  color: #92badd;\n  display: inline-block;\n  text-decoration: none;\n  font-weight: 400;\n}\nh2[data-v-42c42d6a] {\n  text-align: center;\n  font-size: 16px;\n  font-weight: 600;\n  text-transform: uppercase;\n  display: inline-block;\n  margin: 40px 8px 10px 8px;\n  color: #cccccc;\n}\n\n/* STRUCTURE */\n.wrapper[data-v-42c42d6a] {\n  display: flex;\n  align-items: center;\n  flex-direction: column;\n  justify-content: center;\n  width: 100%;\n  min-height: 100%;\n  padding: 20px;\n}\n#formContent[data-v-42c42d6a] {\n  border-radius: 10px 10px 10px 10px;\n  background: #fff;\n  padding: 30px;\n  width: 90%;\n  max-width: 450px;\n  position: relative;\n  padding: 0px;\n  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);\n  text-align: center;\n}\n#formFooter[data-v-42c42d6a] {\n  background-color: #f6f6f6;\n  border-top: 1px solid #dce8f1;\n  padding: 25px;\n  text-align: center;\n  border-radius: 0 0 10px 10px;\n}\n\n/* TABS */\nh2.inactive[data-v-42c42d6a] {\n  color: #cccccc;\n}\nh2.active[data-v-42c42d6a] {\n  color: #0d0d0d;\n  border-bottom: 2px solid #5fbae9;\n}\n\n/* FORM TYPOGRAPHY*/\ninput[type=\"button\"][data-v-42c42d6a],\ninput[type=\"submit\"][data-v-42c42d6a],\ninput[type=\"reset\"][data-v-42c42d6a] {\n  background-color: #56baed;\n  border: none;\n  color: white;\n  padding: 15px 80px;\n  text-align: center;\n  text-decoration: none;\n  display: inline-block;\n  text-transform: uppercase;\n  font-size: 13px;\n  box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);\n  border-radius: 5px 5px 5px 5px;\n  margin: 5px 20px 40px 20px;\n  transition: all 0.3s ease-in-out;\n}\ninput[type=\"button\"][data-v-42c42d6a]:hover,\ninput[type=\"submit\"][data-v-42c42d6a]:hover,\ninput[type=\"reset\"][data-v-42c42d6a]:hover {\n  background-color: #39ace7;\n}\ninput[type=\"button\"][data-v-42c42d6a]:active,\ninput[type=\"submit\"][data-v-42c42d6a]:active,\ninput[type=\"reset\"][data-v-42c42d6a]:active {\n  transform: scale(0.95);\n}\ninput[type=\"text\"][data-v-42c42d6a] {\n  background-color: #f6f6f6;\n  border: none;\n  color: #0d0d0d;\n  padding: 15px 32px;\n  text-align: center;\n  text-decoration: none;\n  display: inline-block;\n  font-size: 16px;\n  margin: 5px;\n  width: 85%;\n  border: 2px solid #f6f6f6;\n  transition: all 0.5s ease-in-out;\n  border-radius: 5px 5px 5px 5px;\n}\ninput[type=\"text\"][data-v-42c42d6a]:focus {\n  background-color: #fff;\n  border-bottom: 2px solid #5fbae9;\n}\ninput[type=\"text\"][data-v-42c42d6a]:placeholder {\n  color: #cccccc;\n}\n\n/* ANIMATIONS */\n\n/* Simple CSS3 Fade-in-down Animation */\n.fadeInDown[data-v-42c42d6a] {\n  -webkit-animation-name: fadeInDown-data-v-42c42d6a;\n  animation-name: fadeInDown-data-v-42c42d6a;\n  -webkit-animation-duration: 1s;\n  animation-duration: 1s;\n  -webkit-animation-fill-mode: both;\n  animation-fill-mode: both;\n}\n@-webkit-keyframes fadeInDown-data-v-42c42d6a {\n0% {\n    opacity: 0;\n    transform: translate3d(0, -100%, 0);\n}\n100% {\n    opacity: 1;\n    transform: none;\n}\n}\n@keyframes fadeInDown-data-v-42c42d6a {\n0% {\n    opacity: 0;\n    transform: translate3d(0, -100%, 0);\n}\n100% {\n    opacity: 1;\n    transform: none;\n}\n}\n\n/* Simple CSS3 Fade-in Animation */\n@-webkit-keyframes fadeIn-data-v-42c42d6a {\nfrom {\n    opacity: 0;\n}\nto {\n    opacity: 1;\n}\n}\n@keyframes fadeIn-data-v-42c42d6a {\nfrom {\n    opacity: 0;\n}\nto {\n    opacity: 1;\n}\n}\n.fadeIn[data-v-42c42d6a] {\n  opacity: 0;\n  -webkit-animation: fadeIn-data-v-42c42d6a ease-in 1;\n  animation: fadeIn-data-v-42c42d6a ease-in 1;\n\n  -webkit-animation-fill-mode: forwards;\n  animation-fill-mode: forwards;\n\n  -webkit-animation-duration: 1s;\n  animation-duration: 1s;\n}\n.fadeIn.first[data-v-42c42d6a] {\n  -webkit-animation-delay: 0.4s;\n  animation-delay: 0.4s;\n}\n.fadeIn.second[data-v-42c42d6a] {\n  -webkit-animation-delay: 0.6s;\n  animation-delay: 0.6s;\n}\n.fadeIn.third[data-v-42c42d6a] {\n  -webkit-animation-delay: 0.8s;\n  animation-delay: 0.8s;\n}\n.fadeIn.fourth[data-v-42c42d6a] {\n  -webkit-animation-delay: 1s;\n  animation-delay: 1s;\n}\n\n/* Simple CSS3 Fade-in Animation */\n.underlineHover[data-v-42c42d6a]:after {\n  display: block;\n  left: 0;\n  bottom: -10px;\n  width: 0;\n  height: 2px;\n  background-color: #56baed;\n  content: \"\";\n  transition: width 0.2s;\n}\n.underlineHover[data-v-42c42d6a]:hover {\n  color: #0d0d0d;\n}\n.underlineHover[data-v-42c42d6a]:hover:after {\n  width: 100%;\n}\n\n/* OTHERS */\n*[data-v-42c42d6a]:focus {\n  outline: none;\n}\n#icon[data-v-42c42d6a] {\n  width: 60%;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -38508,9 +38484,70 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "wrapper fadeInDown" }, [
     _c("div", { attrs: { id: "formContent" } }, [
-      _vm._m(0),
+      _c("input", {
+        directives: [
+          {
+            name: "model",
+            rawName: "v-model",
+            value: _vm.form.email,
+            expression: "form.email"
+          }
+        ],
+        staticClass: "fadeIn second",
+        attrs: {
+          type: "text",
+          id: "login",
+          name: "login",
+          placeholder: "email"
+        },
+        domProps: { value: _vm.form.email },
+        on: {
+          input: function($event) {
+            if ($event.target.composing) {
+              return
+            }
+            _vm.$set(_vm.form, "email", $event.target.value)
+          }
+        }
+      }),
       _vm._v(" "),
-      _vm._m(1),
+      _c("input", {
+        directives: [
+          {
+            name: "model",
+            rawName: "v-model",
+            value: _vm.form.password,
+            expression: "form.password"
+          }
+        ],
+        staticClass: "fadeIn third",
+        attrs: {
+          type: "text",
+          id: "password",
+          name: "login",
+          placeholder: "password"
+        },
+        domProps: { value: _vm.form.password },
+        on: {
+          input: function($event) {
+            if ($event.target.composing) {
+              return
+            }
+            _vm.$set(_vm.form, "password", $event.target.value)
+          }
+        }
+      }),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "fadeIn fourth",
+        attrs: { type: "submit", value: "Log In" },
+        on: {
+          click: function($event) {
+            $event.preventDefault()
+            return _vm.loginUser.apply(null, arguments)
+          }
+        }
+      }),
       _vm._v(" "),
       _c(
         "div",
@@ -38527,53 +38564,7 @@ var render = function() {
     ])
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "fadeIn first" }, [
-      _c("img", {
-        attrs: {
-          src: "http://danielzawadzki.com/codepen/01/icon.svg",
-          id: "icon",
-          alt: "User Icon"
-        }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("form", [
-      _c("input", {
-        staticClass: "fadeIn second",
-        attrs: {
-          type: "text",
-          id: "login",
-          name: "login",
-          placeholder: "login"
-        }
-      }),
-      _vm._v(" "),
-      _c("input", {
-        staticClass: "fadeIn third",
-        attrs: {
-          type: "text",
-          id: "password",
-          name: "login",
-          placeholder: "password"
-        }
-      }),
-      _vm._v(" "),
-      _c("input", {
-        staticClass: "fadeIn fourth",
-        attrs: { type: "submit", value: "Log In" }
-      })
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 

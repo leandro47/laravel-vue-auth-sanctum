@@ -1,36 +1,13 @@
 <template>
   <div class="wrapper fadeInDown">
-           <!-- <div class="flex flex-wrap w-full justify-center items-center pt-56">
-        <div class="flex flex-wrap max-w-xl">
-            <div class="p-2 text-2xl text-gray-800 font-semibold"><h1>Login to your account</h1></div>
-            <div class="p-2 w-full">
-                <label for="email">Your e-mail</label>
-                <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Email" type="email" v-model="form.email">
-            </div>
-            <div class="p-2 w-full">
-                <label for="password">Password</label>
-                <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Password" type="password" v-model="form.password" name="password">
-            </div>
-            <div class="p-2 w-full mt-4">
-                <button @click.prevent="loginUser" type="submit" class="flex text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Login</button>
-            </div>
-        </div> 
-    </div> -->
     <div id="formContent">
-      <div class="fadeIn first">
-        <img
-          src="http://danielzawadzki.com/codepen/01/icon.svg"
-          id="icon"
-          alt="User Icon"
-        />
-      </div>
-      <form>
         <input
           type="text"
           id="login"
           class="fadeIn second"
           name="login"
-          placeholder="login"
+          placeholder="email"
+          v-model="form.email"
         />
         <input
           type="text"
@@ -38,16 +15,15 @@
           class="fadeIn third"
           name="login"
           placeholder="password"
+          v-model="form.password"
         />
-        <input type="submit" class="fadeIn fourth" value="Log In" />
-      </form>
+        <input @click.prevent="loginUser" type="submit" class="fadeIn fourth" value="Log In" />
       <div id="formFooter">
         <router-link class="underlineHover" to="/register"
           >Register</router-link
         >
       </div>
     </div>
-    
   </div>
 </template>
 <script>
