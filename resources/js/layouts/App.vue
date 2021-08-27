@@ -1,22 +1,59 @@
 <template>
   <div>
-    <div class="flex bg-gray-100 border-b border-gray-300 py-4">
-      <div class="container mx-auto flex justify-between">
-        <div class="flax">
-          <router-link class="mr-4" to="/login" exact>Login</router-link>
-          <router-link to="/register">Register</router-link>
-          <router-link to="/dashboard">dashboard</router-link>
+    <div v-if="user.email">
+      <Navbar></Navbar>
+      <div id="layoutSidenav">
+        <Sidebar></Sidebar>
+        <div id="layoutSidenav_content">
+          <main>
+            <div class="container-fluid px-4">
+              <router-view></router-view>
+            </div>
+          </main>
+          <Footer></Footer>
         </div>
       </div>
     </div>
-    <div class="container mx-auto py-2">
-      <router-view></router-view>
+    <div v-else>
+      <div id="layoutAuthentication">
+        <router-view></router-view>
+        <div id="layoutAuthentication_footer">
+          <Footer></Footer>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+import Footer from "./../includes/footer/Footer";
+import Navbar from "./../includes/navbar/Navbar";
+import Sidebar from "./../includes/sidebar/Sidebar";
+import { mapGetters, mapActions } from "vuex";
+
+export default {
+  computed: {
+    ...mapGetters({
+      user: "fetchUser",
+    }),
+  },
+  components: {
+    Footer,
+    Navbar,
+    Sidebar,
+  },
+  methods: {
+    ...mapActions({
+      fetchUser: "fetchUser",
+    }),
+    async showMenu() {
+      await this.fetchUser();
+    },
+  },
+  created() {
+    this.showMenu();
+  },
+};
 </script>
 
 <style>

@@ -5,8 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\ValidationException;
+use App\Models\User;
+use Illuminate\Support\Facades\Hash;
 
-class LoginController extends Controller
+class UserController extends Controller
 {
     public function login(Request $request)
     {
@@ -22,8 +24,24 @@ class LoginController extends Controller
             'email' =>['The provided credentials are incorect.']
         ]);
     }
+
     public function logout()
     {
         Auth::logout();
+    }
+
+    public function register(Request $request)
+    {
+        $request->validate([
+            'name' => ['required'],
+            'email' => ['required', 'email', 'unique:users'],
+            'password' =>['required', 'min:6', 'confirmed']
+        ]);
+
+        User::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' => Hash::make($request->password)
+        ]);
     }
 }

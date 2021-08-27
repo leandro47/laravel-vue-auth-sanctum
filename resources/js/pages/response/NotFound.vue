@@ -1,10 +1,22 @@
 <template>
-    <div class="absolute inset-0 bg-gray-200 flex items-center justify-center">
-       <div class="text-3xl text-center text-gray-700">Page Not Found! <br>404 ERROR!</div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="text-center mt-4">
+          <img
+            class="mb-4 img-error"
+            :src="'images/error-404.svg'"
+          />
+          <p class="lead">Ops não consegui encontrar esse endereço :(</p>
+          <a href="index.html">
+            <i class="fas fa-arrow-left me-1"></i>
+            Voltar para o dashboard
+          </a>
+        </div>
+      </div>
     </div>
+  </div>
 </template>
 <script>
-export default {
-    
-}
+export default {};
 </script>
